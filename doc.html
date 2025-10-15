@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doctor Profile - Medicare Hospital</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        border: 2px solid #b5d8ea;
+        padding: 30px;
+    }
+
+    header {
+        text-align: center;
+        border-bottom: 2px solid #b5d8ea;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .hospital-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hospital-name img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .hospital-name h1 {
+        color: #1b87c9;
+        font-size: 26px;
+        margin: 0;
+    }
+
+    nav {
+        margin-top: 12px;
+    }
+
+    nav a {
+        margin: 0 20px; /* Increased spacing */
+        text-decoration: none;
+        color: #1b87c9;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .doctor-section {
+        text-align: center;
+    }
+
+    .doctor-section h2 {
+        background-color: #1b87c9;
+        color: white;
+        display: inline-block;
+        padding: 5px 20px;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+    .details {
+        margin: 20px 0;
+        font-size: 18px;
+    }
+
+    .details p {
+        margin: 10px 0;
+        font-weight: bold;
+    }
+
+    .tables-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .table-box {
+        width: 45%;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10px 0;
+    }
+
+    th {
+        background-color: #1b87c9;
+        color: white;
+        padding: 8px;
+        border: 1px solid #1b87c9;
+    }
+
+    td {
+        border: 1px solid #1b87c9;
+        padding: 8px;
+        height: 28px;
+        text-align: center;
+    }
+
+    footer {
+        border-top: 2px solid #b5d8ea;
+        text-align: left;
+        margin-top: 40px;
+        padding-top: 10px;
+        color: #1b87c9;
+        font-size: 14px;
+    }
+
+    footer p {
+        margin: 5px 0;
+    }
+
+    .bottom-bar {
+        background-color: #1b87c9;
+        color: white;
+        padding: 6px;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="hospital-name">
+            <img src="https://humanfocus.co.uk/wp-content/uploads/Asclepius-and-Caduceus-.jpg" alt="Hospital Logo">
+            <h1>MEDICARE HOSPITAL</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+            <a href="#">Doctor</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="doctor-section">
+        <h2>Doctor Profile</h2>
+        <div class="details">
+            <p>NAME: ____________________________</p>
+            <p>SPECIALIZATION: ____________________________</p>
+        </div>
+
+        <div class="tables-container">
+            <div class="table-box">
+                <h3>SCHEDULE</h3>
+                <table class="schedule">
+                    <tr>
+                        <th>DAY</th>
+                        <th>TIMING</th>
+                    </tr>
+                    <tr><td></td><td></td></tr>
+                    <tr><td></td><td></td></tr>
+                </table>
+            </div>
+
+            <div class="table-box">
+                <h3>ASSIGNED PATIENT'S</h3>
+                <table class="patients">
+                    <tr>
+                        <th>PATIENT NAME</th>
+                        <th>APPOINTMENT DATE</th>
+                        <th>STATUS</th>
+                    </tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact Us: +91-123-456-7890 | info@medicarehospital.com</p>
+        <div class="bottom-bar">
+            © 2025 Medicare Hospital. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

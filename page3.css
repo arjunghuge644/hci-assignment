@@ -1,0 +1,173 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f9ff;
+  color: #000;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #d3e0ff;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo h1 {
+  color: #0077cc;
+  font-size: 24px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 40px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Container */
+.appointment-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+/* Left Section */
+.left-section {
+  width: 45%;
+  min-width: 300px;
+  min-height: 400px;
+  background: #e9f2ff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.left-section h2 {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.find-doctor input {
+  padding: 10px;
+  width: 80%;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+.find-doctor button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #0077cc;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.recommended-doctors .doctor-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  gap: 10px;
+  border: 1px solid #ccc;
+}
+
+.doctor-card .icon {
+  font-size: 30px;
+}
+
+/* Right Section */
+.right-section {
+  width: 45%;
+  min-width: 300px;
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid #0077cc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.calendar-placeholder {
+  font-size: 90px;
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.time-slots button {
+  padding: 10px 25px;
+  background-color: #f0f8ff;
+  border: 1px solid #0077cc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.time-slots button:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+.book-now {
+  padding: 12px 25px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: #005fa3;
+}
+
+/* Footer */
+footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  font-size: 14px;
+}
